@@ -11,7 +11,7 @@ export const MenubarStyle = styled.div`
     background-color: #f63d13;
     color: white;
     border-radius: 50%;
-    padding: 5px;
+    padding: 6px;
     font-size: 10px;
     margin-left: 70%;
   }
@@ -66,7 +66,6 @@ export const MenubarStyle = styled.div`
     position: fixed;
     bottom: 2%;
     left: 8%;
-    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;

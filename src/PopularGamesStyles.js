@@ -20,6 +20,10 @@ const PopularGamesStyles = styled.div`
     height: 131px;
     padding: 10px;
   }
+
+  .card:hover {
+    background-color: #4b0ace;
+  }
   .head p {
     font-size: 10px;
   }

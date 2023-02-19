@@ -29,6 +29,10 @@ const TopBarStyles = styled.div`
     background-color: #fafbfc;
     padding: 12px;
   }
+
+  .top-bar-icon-wrapper:hover {
+    background-color: #f1f3f6;
+  }
   .user {
     margin-left: 20px;
     border-radius: 50%;

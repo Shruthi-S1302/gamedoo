@@ -20,7 +20,16 @@ function TopBar() {
           <img src={trophy} className="top-bar-icons" />
           <span className="noti"></span>
         </div>
-        <img src={user} className="user" />
+        <button
+          style={{
+            border: "none",
+            outline: "none",
+            background: "none",
+            cursor: "pointer",
+          }}
+        >
+          <img src={user} className="user" />
+        </button>
       </TopBarStyles>
     </div>
   );

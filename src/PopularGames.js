@@ -6,10 +6,11 @@ import download from "./assets/icons/grey_download.svg";
 import ios from "./assets/icons/IOS.svg";
 import windows from "./assets/icons/Window.svg";
 import play from "./assets/icons/GooglePlay.svg";
+import styled from "styled-components";
 
 function PopularGames(props) {
   return (
-    <a>
+    <a href="#" style={{ textDecoration: "none" }}>
       <div className="card">
         <PopularGamesStyles
           style={{
