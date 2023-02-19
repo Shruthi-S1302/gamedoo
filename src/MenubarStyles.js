@@ -66,6 +66,7 @@ export const MenubarStyle = styled.div`
     position: fixed;
     bottom: 2%;
     left: 8%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
